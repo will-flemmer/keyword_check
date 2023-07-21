@@ -41,7 +41,7 @@ module KeywordChecker
     end
 
     def keyword_found?
-      return true if @client.page.has_content?(@keyword)
+      return true if @client.page.has_content?(%r{#{@keyword}}i) # rubocop:disable Style/RegexpLiteral
 
       @error_message = "Keyword not found on page"
       false
