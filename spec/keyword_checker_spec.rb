@@ -2,7 +2,7 @@
 
 RSpec.describe KeywordChecker do
   let(:url) { "https://quotes.toscrape.com/" }
-  let(:keyword) { "Quotes to Scrape" }
+  let(:keyword) { "Quotes To Scrape" }
 
   describe "on success" do
     let(:test) { KeywordChecker::Test.new }
