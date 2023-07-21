@@ -3,7 +3,9 @@ A simple gem which provides a client to check if a keyword is present on a websi
 
 ## Installation
 
+```ruby
 gem 'keyword_checker', git: 'https://github.com/will-flemmer/keyword_check'
+```
 
 ## Usage
 
