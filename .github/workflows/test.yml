@@ -14,6 +14,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Find Chrome
+      run: |
+        whereis chrome
+        whereis chromium
+        whereis google-chrome
+        whereis chromedriver
+
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:

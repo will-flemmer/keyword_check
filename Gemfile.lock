@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    keyword_check (0.1.0)
+    keyword_checker (0.1.0)
       capybara
       cuprite
 
@@ -91,9 +91,10 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
-  keyword_check!
+  keyword_checker!
   pry (~> 0.13.1)
   rake (~> 13.0)
   rspec (~> 3.0)

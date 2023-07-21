@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "keyword_check"
+require "keyword_checker"
 require "pry"
 
 RSpec.configure do |config|
